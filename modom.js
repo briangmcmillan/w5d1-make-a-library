@@ -32,8 +32,8 @@
     }
 
     //Number 7
-    var getAttr = function (div1, divClass) {
-        return document.querySelector(div1).getAttribute(divClass)
+    var getAttr = function (selector, attribute) {
+        return document.querySelector(selector).getAttribute(attribute)
     }
 
     //Number 8
